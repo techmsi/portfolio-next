@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral&Karla&display=swap');
+
+:root {
+  --phthalo-green: #23362bff;
+  --jungle-green: #1bb28cff;
+  --terra-cotta: #e86a58ff;
+  --orange-yellow-crayola: #fed45bff;
+  --opal: #9bc7c5ff;
+  --isabelline: #efeeeaff;
+  --brand-body: 'Spectral', sans-serif;
+  --brand-heading: 'Karla', sans-serif;
+  --brand-base: var(--phthalo-green);
+  --brand-light: var(--isabelline);
+  --brand-accent-1: var(--terra-cotta);
+  --brand-accent-2: var(--jungle-green);
+  --brand-accent-3: var(--orange-yellow-crayola);
+  --brand-accent-4: var(--opal);
+}
+.logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/images/logo_sophie.png');
+  display: block;
+  height: 5rem;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: var(--brand-body);
+  background: url('/images/canvas.png');
+}
+h1 {
+  font-family: var(--brand-body);
+}
+a {
+  font-family: var(--brand-body);
+  cursor: pointer;
+  color: var(--brand-base);
+  display: inline-block;
+  &:hover {
+    background-color: var(--brand-accent-1);
+  }
+}
+.tech {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  svg {
+    font-size: 4rem;
+  }
+}
+.container {
+  padding: 3rem;
+}
+.menu p {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  a {
+    padding: 0.25rem 1rem;
+    min-height: 2rem;
+    border-radius: 0.25rem;
+  }
+}
