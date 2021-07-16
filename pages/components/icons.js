@@ -8,6 +8,7 @@ import {
   DiSass,
   DiReact,
 } from 'react-icons/di';
+
 export const filterList = [
   null,
   'sass',
@@ -30,10 +31,13 @@ export const Icon = ({ value }) => (
   <i className={value}>{(value && Icons[value]) || Icons['all']}</i>
 );
 const allIcons = Object.entries(Icons);
-export const Technologies = () => (
+
+const Technologies = () => (
   <div className="tech">
     {allIcons.map(([value, key]) => (
       <Icon key={key} value={value} />
     ))}
   </div>
 );
+
+export default Technologies;
