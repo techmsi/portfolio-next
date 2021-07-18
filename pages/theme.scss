@@ -5,9 +5,12 @@
   --orange-yellow-crayola: #fed45bff;
   --opal: #9bc7c5ff;
   --isabelline: rgba(239, 238, 234, 0.5);
-  --brand-body: 'Spectral', sans-serif;
-  --brand-heading: 'Karla', sans-serif;
+  --lobster: 'Lobster';
+  --karla: 'Karla';
+  --brand-body: var(--karla), sans-serif;
+  --brand-heading: var(--lobster), sans-serif;
   --brand-base: var(--phthalo-green);
+  --brand-dark: rgb(36, 38, 42);
   --brand-light: var(--isabelline);
   --brand-accent-1: var(--terra-cotta);
   --brand-accent-2: var(--jungle-green);
