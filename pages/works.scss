@@ -1,0 +1,42 @@
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+.showcase-title {
+  text-align: center;
+}
+.work-card {
+  display: grid;
+  padding: 1rem;
+  background-color: var(--brand-light);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+  h2 {
+    align-self: center;
+  }
+  a {
+    place-self: center;
+    padding: 0;
+  }
+  img {
+    min-width: 200px;
+  }
+}
+.workImage {
+  object-fit: contain;
+}
+.work-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  .workImage {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+}

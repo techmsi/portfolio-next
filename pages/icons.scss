@@ -1,0 +1,51 @@
+.icon {
+  svg {
+    font-size: var(--icon-med);
+  }
+}
+.all {
+  color: var(--logo-all);
+}
+.javascript {
+  color: var(--logo-javascript);
+}
+.react {
+  color: var(--logo-react);
+}
+.sass {
+  color: var(--logo-sass);
+}
+.php {
+  color: var(--logo-php);
+}
+.node {
+  color: var(--logo-node);
+}
+.photoshop {
+  color: var(--logo-photoshop);
+}
+.illustrator {
+  color: var(--logo-illustrator);
+}
+.drupal {
+  color: var(--logo-drupal);
+}
+.python {
+  color: var(--logo-python);
+}
+.indesign {
+  color: var(--logo-indesign);
+  position: relative;
+  top: -3px;
+  svg {
+    font-size: var(--icon-med-alt);
+    stroke-width: 0.8px;
+  }
+}
+
+.sketchup {
+  color: var(--logo-all);
+  svg {
+    font-size: var(--icon-med-alt);
+  }
+}
