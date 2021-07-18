@@ -1,0 +1,96 @@
+[
+  {
+    "name": "my-living-room",
+    "title": "My Living Room",
+    "software": [
+      "Photoshop",
+      "Sketchup"
+    ]
+  },
+  {
+    "name": "still-life",
+    "title": "Still Life",
+    "software": [
+      "Illustrator"
+    ]
+  },
+  {
+    "name": "birth-announcement",
+    "title": "Birth Announcement",
+    "software": [
+      "Photoshop"
+    ]
+  },
+  {
+    "name": "healthy-eating-poster",
+    "title": "Healthy Eating Poster",
+    "software": [
+      "Illustrator"
+    ]
+  },
+  {
+    "name": "logo-for-viva-tango",
+    "title": "Logo for Viva Tango",
+    "software": [
+      "Illustrator"
+    ]
+  },
+  {
+    "name": "learning-differences-ballroom-program",
+    "title": "Learning Differences Ballroom Program",
+    "software": [
+      "Photoshop"
+    ]
+  },
+  {
+    "name": "logo-for-diabetes-poster",
+    "title": "Logo for Diabetes Poster",
+    "software": [
+      "Illustrator",
+      "Photoshop",
+      "InDesign"
+    ]
+  },
+  {
+    "name": "logo-for-ultimate-audio-systems",
+    "title": "Logo for Ultimate Audio Systems",
+    "software": [
+      "Photoshop"
+    ]
+  },
+  {
+    "name": "ad-for-dance-instructor",
+    "title": "Ad for Dance Instructor",
+    "software": [
+      "Illustrator",
+      "Photoshop",
+      "InDesign"
+    ]
+  },
+  {
+    "name": "promotional-material-for-ballroom-instructor",
+    "title": "Promotional material for Ballroom Instructor",
+    "software": [
+      "Illustrator"
+    ]
+  },
+  {
+    "name": "mathplosion",
+    "title": "Mathplosion",
+    "software": [
+      "HTML",
+      "CSS",
+      "Python"
+    ]
+  },
+  {
+    "name": "game-design-using-scratch",
+    "title": "Game Design using Scratch",
+    "software": [
+      "HTML",
+      "CSS",
+      "Drupal",
+      "Photoshop"
+    ]
+  }
+]

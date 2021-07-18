@@ -1,15 +1,25 @@
+---
+
+title: My Living Room
+excerpt: Interior for game idea.
+slug: my-living-room
+---
 
 import Image from 'next/image';
-   
-    [< Back to all](/)
-    ## My Living Room
-    * Id: 1
-    * Category Id: 4
-    * Disabled: 0
-    * Featured: 0
-    * Organization: null
-    * Technologies: _Photoshop,Sketchup_
-    
-    Interior for game idea designed using the followme tool.
+import { TechList } from '../../components/Works';
 
-<Image className="workImage" src={'/images/sofa.png'} alt="My Living Room" width={900} height={900} layout="intrinsic" />
+
+    [< Back to all](/works)
+    ## My Living Room
+    
+
+  <div className="work-detail" data-id="1" data-disabled="0"
+  data-featured="0" data-category="4" >
+    Interior for game idea designed using the follow me tool.
+    
+    <Image className="workImage" src={'/images/sofa.png'} alt='My Living Room' width={900} height={900} layout="intrinsic" />
+    <TechList title="Technologies" software={["Photoshop","Sketchup"]} />
+  </div>
+
+   
+    

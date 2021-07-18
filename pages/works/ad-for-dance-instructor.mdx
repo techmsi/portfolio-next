@@ -1,21 +1,25 @@
-import Image from 'next/image';
-   
-    [< Back to all](/)
-    ## Ad for Dance Instructor
-    * Id: 9
-    * Category Id: 1
-    * Disabled: 0
-    * Featured: 1
-    * Organization: Lori-Woods Gay is a highly certified dance professional & specialized in training teachers for their professional exams.
-    * Technologies: _Illustrator,Photoshop,InDesign_
-    
-    Designed the Question mark & exclamation point logo to represent a dancing couple. Also, the slogan "Be wise to the Wise" is prominently displayed but without taking the focus away from the portrait.
+---
 
-<Image
-  className="workImage"
-  src={'/images/ad_lori.png'}
-  alt="Ad for Dance Instructor"
-  width={480}
-  height={640}
-  layout="intrinsic"
-/>
+title: Ad for Dance Instructor
+excerpt: Designed logo for a prominent dance instructor.
+slug: ad-for-dance-instructor
+---
+
+import Image from 'next/image';
+import { TechList } from '../../components/Works';
+
+
+    [< Back to all](/works)
+    ## Ad for Dance Instructor
+    
+
+  <div className="work-detail" data-id="9" data-disabled="0"
+  data-featured="1" data-category="1" >
+    Designed the Question mark & exclamation point logo to represent a dancing couple. Also, the slogan "Be wise to the Wise" is prominently displayed but without taking the focus away from the portrait.
+    <h3>Organization Details</h3>Lori-Woods Gay is a highly certified dance professional & specialized in training teachers for their professional exams.
+    <Image className="workImage" src={'/images/ad_lori.png'} alt='Ad for Dance Instructor' width={480} height={640} layout="intrinsic" />
+    <TechList title="Technologies" software={["Illustrator","Photoshop","InDesign"]} />
+  </div>
+
+   
+    

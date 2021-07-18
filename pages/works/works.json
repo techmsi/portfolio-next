@@ -1,0 +1,322 @@
+[
+  {
+    "id": "1",
+    "disabled": "0",
+    "featured": "0",
+    "description": "Interior for game idea designed using the follow me tool.",
+    "org": null,
+    "categoryId": "4",
+    "title": "My Living Room",
+    "software": ["Photoshop", "Sketchup"],
+    "excerpt": "Interior for game idea.",
+    "name": "my-living-room",
+    "img": {
+      "main": {
+        "src": "/images/sofa.png",
+        "width": 900,
+        "height": 900,
+        "alt": "My Living Room"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/sofa.png",
+        "width": 200,
+        "height": 200,
+        "alt": "My Living Room"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "disabled": "0",
+    "featured": "0",
+    "description": "Drawn from observation using a pen tablet. Used for health poster.",
+    "org": null,
+    "categoryId": "5",
+    "title": "Still Life",
+    "software": ["Illustrator"],
+    "excerpt": "Used for health poster.",
+    "name": "still-life",
+    "img": {
+      "main": {
+        "src": "/images/still_life.png",
+        "width": 900,
+        "height": 900,
+        "alt": "Still Life"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/still_life.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Still Life"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "disabled": "0",
+    "featured": "1",
+    "description": "Designed to announce the birth of a baby.",
+    "org": null,
+    "categoryId": "1",
+    "title": "Birth Announcement",
+    "software": ["Photoshop"],
+    "excerpt": "Designed to announce the birth of a baby.",
+    "name": "birth-announcement",
+    "img": {
+      "main": {
+        "src": "/images/color_mother.png",
+        "width": 647,
+        "height": 900,
+        "alt": "Birth Announcement"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/color_mother.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Birth Announcement"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "disabled": "0",
+    "featured": "0",
+    "description": "Drawn from observation using a pen tablet. Used for poster explaining healthy eating for use in an elementary school.",
+    "org": null,
+    "categoryId": "1",
+    "title": "Healthy Eating Poster",
+    "software": ["Illustrator"],
+    "excerpt": "Poster explaining healthy eating.",
+    "name": "healthy-eating-poster",
+    "img": {
+      "main": {
+        "src": "/images/fruits_vegs.png",
+        "width": 900,
+        "height": 900,
+        "alt": "Healthy Eating Poster"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/fruits_vegs.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Healthy Eating Poster"
+      }
+    }
+  },
+  {
+    "id": "5",
+    "disabled": "1",
+    "featured": "0",
+    "description": "Logo design with original vector artwork for print & web use",
+    "org": null,
+    "categoryId": "1",
+    "title": "Logo for Viva Tango",
+    "software": ["Illustrator"],
+    "excerpt": "Logo design with original vector artwork for print",
+    "name": "logo-for-viva-tango",
+    "img": {
+      "main": {
+        "src": "/images/logo_viva_web.png",
+        "width": 900,
+        "height": 900,
+        "alt": "Logo for Viva Tango"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/logo_viva_web.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Logo for Viva Tango"
+      }
+    }
+  },
+  {
+    "id": "6",
+    "disabled": "0",
+    "featured": "1",
+    "description": "Enhanced original photograph taken during performance by adding sharpness, painting in highlights, & designing a new background as well as adding accompanying text.",
+    "org": "In early 2009, I proposed the idea of a Ballroom Elective which met with so great a response that we immediately formed a Team. After a year of continued interest, we formed a Ballroom Program. I, specifically, designed this program to be geared toward students with disabilities.",
+    "categoryId": "6",
+    "title": "Learning Differences Ballroom Program",
+    "software": ["Photoshop"],
+    "excerpt": "Enhanced original photograph taken during performance.",
+    "name": "learning-differences-ballroom-program",
+    "img": {
+      "main": {
+        "src": "/images/ballroom_dance_kids.png",
+        "width": 1077,
+        "height": 887,
+        "alt": "Learning Differences Ballroom Program"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/ballroom_dance_kids.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Learning Differences Ballroom Program"
+      }
+    }
+  },
+  {
+    "id": "7",
+    "disabled": "1",
+    "featured": "0",
+    "description": "Designed for use on 36 inch poster displaying research findings. The words within the main letters show visual hierarchy and closely resemble a tag cloud as the client specified.",
+    "org": null,
+    "categoryId": "1",
+    "title": "Logo for Diabetes Poster",
+    "software": ["Illustrator", "Photoshop", "InDesign"],
+    "excerpt": "Research findings 36 inch poster.",
+    "name": "logo-for-diabetes-poster",
+    "img": {
+      "main": {
+        "src": "/images/logo_diabetes.png",
+        "width": 800,
+        "height": 167,
+        "alt": "Logo for Diabetes Poster"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/logo_diabetes.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Logo for Diabetes Poster"
+      }
+    }
+  },
+  {
+    "id": "8",
+    "disabled": "0",
+    "featured": "0",
+    "description": "Designed logo to resemble multiple speakers & surrounded them with company name.",
+    "org": "Company showcases equipment for a very small number of exclusive brands in audio and video electronics in Greece. ",
+    "categoryId": "1",
+    "title": "Logo for Ultimate Audio Systems",
+    "software": ["Photoshop"],
+    "excerpt": "Designed logo to resemble multiple speakers.",
+    "name": "logo-for-ultimate-audio-systems",
+    "img": {
+      "main": {
+        "src": "/images/logo_uas.png",
+        "width": 279,
+        "height": 210,
+        "alt": "Logo for Ultimate Audio Systems"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/logo_uas.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Logo for Ultimate Audio Systems"
+      }
+    }
+  },
+  {
+    "id": "9",
+    "disabled": "0",
+    "featured": "1",
+    "description": "Designed the Question mark & exclamation point logo to represent a dancing couple. Also, the slogan \"Be wise to the Wise\" is prominently displayed but without taking the focus away from the portrait.",
+    "org": "Lori-Woods Gay is a highly certified dance professional & specialized in training teachers for their professional exams.",
+    "categoryId": "1",
+    "title": "Ad for Dance Instructor",
+    "software": ["Illustrator", "Photoshop", "InDesign"],
+    "excerpt": "Designed logo for a prominent dance instructor.",
+    "name": "ad-for-dance-instructor",
+    "img": {
+      "main": {
+        "src": "/images/ad_lori.png",
+        "width": 480,
+        "height": 640,
+        "alt": "Ad for Dance Instructor"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/ad_lori.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Ad for Dance Instructor"
+      }
+    }
+  },
+  {
+    "id": "10",
+    "disabled": "0",
+    "featured": "1",
+    "description": "Designed main logo for 28dances with alternate logos for Twitter & apple touch icon. Created vector illustrations of 4 couples using illustrator pen and gradient mesh tools. Used images to construct headers for Twitter, Google +, and Wordpress. Developed an accompanying site to provide information about the instructor.\n",
+    "link": {
+      "text": "See the live Promotional site.",
+      "url": "http://28dances.com"
+    },
+    "org": "",
+    "categoryId": "1",
+    "title": "Promotional material for Ballroom Instructor",
+    "software": ["Illustrator"],
+    "excerpt": "Designed main logo for 28dances with alternate logos.",
+    "name": "promotional-material-for-ballroom-instructor",
+    "img": {
+      "main": {
+        "src": "/images/logos_28.png",
+        "width": 1024,
+        "height": 1024,
+        "alt": "Promotional material for Ballroom Instructor"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/logos_28.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Promotional material for Ballroom Instructor"
+      }
+    }
+  },
+  {
+    "id": "11",
+    "disabled": "0",
+    "featured": "0",
+    "description": "Created profile module using Django & Python with in-place editing, profile completeness tracker, and avatar support.",
+    "org": "web application to create interactive math content.",
+    "categoryId": "2",
+    "title": "Mathplosion",
+    "software": ["HTML", "CSS", "Python"],
+    "excerpt": "Created profile module using Django & Python.",
+    "name": "mathplosion",
+    "img": {
+      "main": {
+        "src": "/images/mp_profile_view.png",
+        "width": 529,
+        "height": 440,
+        "alt": "Mathplosion"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/mp_profile_view.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Mathplosion"
+      }
+    }
+  },
+  {
+    "id": "12",
+    "disabled": "0",
+    "featured": "1",
+    "description": "Constructed Drupal site to host resources for educators that would like to teach game design. Authenticated users may view and add resources which other user's can flag if not useful and/or bookmark if useful. Additionally, approved users may ask questions that all users may view both the question and answer to.\nThe site uses the Panopoly distribution with a combination of other modules including but not limited to Views, Panels, and Flag. The site contains a custom theme based on Omega.",
+    "link": {
+      "text": "See the live Game Design site.",
+      "url": "http://gmsitech.com/gds"
+    },
+    "org": null,
+    "categoryId": "3",
+    "title": "Game Design using Scratch",
+    "software": ["HTML", "CSS", "Drupal", "Photoshop"],
+    "excerpt": "Constructed Drupal site to host resources for educators.",
+    "name": "game-design-using-scratch",
+    "img": {
+      "main": {
+        "src": "/images/gds.png",
+        "width": 1024,
+        "height": 1024,
+        "alt": "Game Design using Scratch"
+      },
+      "thumbnail": {
+        "src": "/images/thumbs/gds.png",
+        "width": 200,
+        "height": 200,
+        "alt": "Game Design using Scratch"
+      }
+    }
+  }
+]

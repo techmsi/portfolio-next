@@ -1,15 +1,25 @@
+---
+
+title: Birth Announcement
+excerpt: Designed to announce the birth of a baby.
+slug: birth-announcement
+---
 
 import Image from 'next/image';
-   
-    [< Back to all](/)
-    ## Birth Announcement
-    * Id: 3
-    * Category Id: 1
-    * Disabled: 0
-    * Featured: 1
-    * Organization: null
-    * Technologies: _Photoshop_
-    
-    Designed to announce the birth of a baby.
+import { TechList } from '../../components/Works';
 
-<Image className="workImage" src={'/images/colorMother.png'} alt="Birth Announcement" width={647} height={900} layout="intrinsic" />
+
+    [< Back to all](/works)
+    ## Birth Announcement
+    
+
+  <div className="work-detail" data-id="3" data-disabled="0"
+  data-featured="1" data-category="1" >
+    Designed to announce the birth of a baby.
+    
+    <Image className="workImage" src={'/images/color_mother.png'} alt='Birth Announcement' width={647} height={900} layout="intrinsic" />
+    <TechList title="Technologies" software={["Photoshop"]} />
+  </div>
+
+   
+    
