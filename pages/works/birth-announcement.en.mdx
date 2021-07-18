@@ -7,7 +7,7 @@ slug: birth-announcement
 
 import Image from 'next/image';
 import { TechList } from '../../components/Works';
-
+import workImage from '../../public//images/color_mother.png';
 
     [< Back to all](/works)
     ## Birth Announcement
@@ -17,7 +17,7 @@ import { TechList } from '../../components/Works';
   data-featured="1" data-category="1" >
     Designed to announce the birth of a baby.
     
-    <Image className="workImage" src={'/images/color_mother.png'} alt='Birth Announcement' width={647} height={900} layout="intrinsic" />
+    <Image className="workImage" src={workImage} alt='Birth Announcement' width={647} height={900} layout="intrinsic" placeholder="blur" blurDataUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" />
     <TechList title="Technologies" software={["Photoshop"]} />
   </div>
 

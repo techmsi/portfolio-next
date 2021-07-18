@@ -7,7 +7,7 @@ slug: mathplosion
 
 import Image from 'next/image';
 import { TechList } from '../../components/Works';
-
+import workImage from '../../public//images/mp_profile_view.png';
 
     [< Back to all](/works)
     ## Mathplosion
@@ -17,7 +17,7 @@ import { TechList } from '../../components/Works';
   data-featured="0" data-category="2" >
     Created profile module using Django & Python with in-place editing, profile completeness tracker, and avatar support.
     <h3>Organization Details</h3>web application to create interactive math content.
-    <Image className="workImage" src={'/images/mp_profile_view.png'} alt='Mathplosion' width={529} height={440} layout="intrinsic" />
+    <Image className="workImage" src={workImage} alt='Mathplosion' width={529} height={440} layout="intrinsic" placeholder="blur" blurDataUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" />
     <TechList title="Technologies" software={["HTML","CSS","Python"]} />
   </div>
 

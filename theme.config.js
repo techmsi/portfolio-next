@@ -13,4 +13,8 @@ export default {
       <meta name="og:title" content="Nextra: the next blog builder" />
     </>
   ),
+  i18n: [
+    { locale: 'en', text: 'English' },
+    { locale: 'el', text: 'Ελληνικά' },
+  ],
 };

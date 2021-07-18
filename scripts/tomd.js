@@ -7,7 +7,7 @@ const works = path.join(pages, 'works');
 
 const filenames = {
   data: path.join(works, 'works.json'),
-  menu: path.join(works, 'index.mdx'),
+  menu: path.join(works, 'index.en.mdx'),
   api: path.join(pages, 'api', 'pageIndexes.json'),
 };
 const getExcerpt = (description) =>
@@ -47,7 +47,7 @@ slug: ${name}
 
 import Image from 'next/image';
 import { TechList } from '../../components/Works';
-
+import workImage from '../../public/${src}';
 
     [< Back to all](/works)
     ## ${title}
@@ -57,7 +57,7 @@ import { TechList } from '../../components/Works';
   data-featured="${md.featured}" data-category="${cid}" >
     ${md.description}
     ${organization}
-    <Image className="workImage" src={'${src}'} alt='${alt}' width={${width}} height={${height}} layout="intrinsic" />
+    <Image className="workImage" src={workImage} alt='${alt}' width={${width}} height={${height}} layout="intrinsic" placeholder="blur" blurDataUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" />
     <TechList title="Technologies" software={[${md.software
       .map((s) => `"${s}"`)
       .join(',')}]} />
