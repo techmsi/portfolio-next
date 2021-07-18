@@ -24,7 +24,7 @@ const WorkImage = ({ thumbnail }) => (
 export const Works = ({ works }) => (
   <section className="showcase">
     {works.map(({ name, title, software, img }) => (
-      <div className="work-card">
+      <div key={`work-${name}`} className="work-card">
         <WorkImage thumbnail={img.thumbnail} />
         <h2>{title}</h2>
         <TechList software={software} />

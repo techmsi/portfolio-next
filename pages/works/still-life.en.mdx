@@ -7,7 +7,7 @@ slug: still-life
 
 import Image from 'next/image';
 import { TechList } from '../../components/Works';
-
+import workImage from '../../public//images/still_life.png';
 
     [< Back to all](/works)
     ## Still Life
@@ -17,7 +17,7 @@ import { TechList } from '../../components/Works';
   data-featured="0" data-category="5" >
     Drawn from observation using a pen tablet. Used for health poster.
     
-    <Image className="workImage" src={'/images/still_life.png'} alt='Still Life' width={900} height={900} layout="intrinsic" />
+    <Image className="workImage" src={workImage} alt='Still Life' width={900} height={900} layout="intrinsic" placeholder="blur" blurDataUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" />
     <TechList title="Technologies" software={["Illustrator"]} />
   </div>
 

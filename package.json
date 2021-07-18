@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "next build",
-    "dev": "next dev"
+    "dev": "PORT=4000 next dev"
   },
   "dependencies": {
     "image-size": "^1.0.0",

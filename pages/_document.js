@@ -16,15 +16,11 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Lobster"
+            href="https://fonts.googleapis.com/css2?family=Jura:wght@500&display=optional"
             rel="stylesheet"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Spectral"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Karla"
+            href="https://fonts.googleapis.com/css2?family=Tinos&display=optional"
             rel="stylesheet"
           />
         </Head>

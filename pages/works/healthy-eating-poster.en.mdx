@@ -7,7 +7,7 @@ slug: healthy-eating-poster
 
 import Image from 'next/image';
 import { TechList } from '../../components/Works';
-
+import workImage from '../../public//images/fruits_vegs.png';
 
     [< Back to all](/works)
     ## Healthy Eating Poster
@@ -17,7 +17,7 @@ import { TechList } from '../../components/Works';
   data-featured="0" data-category="1" >
     Drawn from observation using a pen tablet. Used for poster explaining healthy eating for use in an elementary school.
     
-    <Image className="workImage" src={'/images/fruits_vegs.png'} alt='Healthy Eating Poster' width={900} height={900} layout="intrinsic" />
+    <Image className="workImage" src={workImage} alt='Healthy Eating Poster' width={900} height={900} layout="intrinsic" placeholder="blur" blurDataUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" />
     <TechList title="Technologies" software={["Illustrator"]} />
   </div>
 

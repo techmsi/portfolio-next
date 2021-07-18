@@ -7,7 +7,7 @@ slug: logo-for-diabetes-poster
 
 import Image from 'next/image';
 import { TechList } from '../../components/Works';
-
+import workImage from '../../public//images/logo_diabetes.png';
 
     [< Back to all](/works)
     ## Logo for Diabetes Poster
@@ -17,7 +17,7 @@ import { TechList } from '../../components/Works';
   data-featured="0" data-category="1" >
     Designed for use on 36 inch poster displaying research findings. The words within the main letters show visual hierarchy and closely resemble a tag cloud as the client specified.
     
-    <Image className="workImage" src={'/images/logo_diabetes.png'} alt='Logo for Diabetes Poster' width={800} height={167} layout="intrinsic" />
+    <Image className="workImage" src={workImage} alt='Logo for Diabetes Poster' width={800} height={167} layout="intrinsic" placeholder="blur" blurDataUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" />
     <TechList title="Technologies" software={["Illustrator","Photoshop","InDesign"]} />
   </div>
 

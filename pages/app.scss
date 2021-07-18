@@ -32,6 +32,9 @@ a {
     border-bottom-color: var(--brand-accent-2);
   }
 }
+p {
+  font-weight: 500;
+}
 .error-page {
   text-align: center;
   color: var(--brand-accent-1);
@@ -42,13 +45,6 @@ a {
   display: grid;
   grid-row-gap: 1rem;
   padding: 3rem;
-}
-.logo {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('/images/logo_sophie.png');
-  display: block;
-  height: 5rem;
 }
 
 .tech {

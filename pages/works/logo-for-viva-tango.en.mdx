@@ -7,7 +7,7 @@ slug: logo-for-viva-tango
 
 import Image from 'next/image';
 import { TechList } from '../../components/Works';
-
+import workImage from '../../public//images/logo_viva_web.png';
 
     [< Back to all](/works)
     ## Logo for Viva Tango
@@ -17,7 +17,7 @@ import { TechList } from '../../components/Works';
   data-featured="0" data-category="1" >
     Logo design with original vector artwork for print & web use
     
-    <Image className="workImage" src={'/images/logo_viva_web.png'} alt='Logo for Viva Tango' width={900} height={900} layout="intrinsic" />
+    <Image className="workImage" src={workImage} alt='Logo for Viva Tango' width={900} height={900} layout="intrinsic" placeholder="blur" blurDataUrl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" />
     <TechList title="Technologies" software={["Illustrator"]} />
   </div>
 
