@@ -1,15 +1,25 @@
+---
+
+title: Still Life
+excerpt: Used for health poster.
+slug: still-life
+---
 
 import Image from 'next/image';
-   
-    [< Back to all](/)
-    ## Still Life
-    * Id: 2
-    * Category Id: 5
-    * Disabled: 0
-    * Featured: 0
-    * Organization: null
-    * Technologies: _Illustrator_
-    
-    Drawn from observation using a pen tablet. Used for health poster.
+import { TechList } from '../../components/Works';
 
-<Image className="workImage" src={'/images/stilllife.png'} alt="Still Life" width={900} height={900} layout="intrinsic" />
+
+    [< Back to all](/works)
+    ## Still Life
+    
+
+  <div className="work-detail" data-id="2" data-disabled="0"
+  data-featured="0" data-category="5" >
+    Drawn from observation using a pen tablet. Used for health poster.
+    
+    <Image className="workImage" src={'/images/still_life.png'} alt='Still Life' width={900} height={900} layout="intrinsic" />
+    <TechList title="Technologies" software={["Illustrator"]} />
+  </div>
+
+   
+    

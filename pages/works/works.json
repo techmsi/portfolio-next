@@ -38,13 +38,13 @@
     "name": "still-life",
     "img": {
       "main": {
-        "src": "/images/stillLife.png",
+        "src": "/images/still_life.png",
         "width": 900,
         "height": 900,
         "alt": "Still Life"
       },
       "thumbnail": {
-        "src": "/images/thumbs/stillLife.png",
+        "src": "/images/thumbs/still_life.png",
         "width": 200,
         "height": 200,
         "alt": "Still Life"
@@ -64,13 +64,13 @@
     "name": "birth-announcement",
     "img": {
       "main": {
-        "src": "/images/colorMother.png",
+        "src": "/images/color_mother.png",
         "width": 647,
         "height": 900,
         "alt": "Birth Announcement"
       },
       "thumbnail": {
-        "src": "/images/thumbs/colorMother.png",
+        "src": "/images/thumbs/color_mother.png",
         "width": 200,
         "height": 200,
         "alt": "Birth Announcement"
